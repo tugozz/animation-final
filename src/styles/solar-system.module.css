@@ -29,7 +29,7 @@
   border-radius: 50%;
   transform: translate(-50%, -50%);
   border: 1px dashed rgba(255, 255, 255, 0.5);
-  animation: orbit var(--orbit-period) infinite linear;
+  animation: orbitBig var(--orbit-period) infinite linear;
 }
 
 .planet {
@@ -40,6 +40,6 @@
 
   width: var(--planet);
   height: var(--planet);
-  animation: orbit var(--planet-period) infinite linear;
+  animation: orbitBig var(--planet-period) infinite linear;
 }
 /*  */
